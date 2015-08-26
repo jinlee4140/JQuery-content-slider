@@ -51,3 +51,25 @@ h1 {
 	z-index:100;
 
 }
+
+#prev {
+	margin-right:-45px;
+}
+
+#next {
+	margin-left:-45px;
+}
+
+.slide {
+	position:absolute;
+}
+
+.slide-copy {
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:20px;
+	background:#7f7f7f;
+	background: rgba(0,0,0,0.5);
+
+}
