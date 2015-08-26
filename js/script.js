@@ -17,7 +17,15 @@ $(document).ready(function() {
 
 	//
 	$('#next').on('click', function() {
-		alert('next was clicked');
+		$('.active').removeClass('active').addClass('.oldActive');
+		if($('.oldActive').is(':last-child')) {
+			$('.slide').first().addClass('active');
+		} else {
+			$('oldActive').next().addClass('active');
+		}
+		$('.oldActive').removeClass('oldActive');
+		$('.slide').fadeOut(speed);
+		$('.active').fadeIn(speed);
 	})
 
 });
