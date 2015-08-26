@@ -37,5 +37,17 @@ h1 {
 	padding:3px;
 	border: #666 solid 2px;
 	border-radius: 5px;   /* makes the corner of the rectangle round rather than sharp */
-	
+}
+#slider img {
+	width:940px;
+	height:350px;
+}
+
+#prev, #next {
+	float:left;
+	margin-top:130px;
+	cursor:pointer;
+	position:relative;
+	z-index:100;
+
 }
